@@ -1,0 +1,17 @@
+/* Clase Texto Animado */
+.textoAnimado {
+    animation-name: texto;
+    animation-duration: 5s;
+}
+@keyframes texto {
+    from {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+

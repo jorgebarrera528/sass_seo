@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+@import 'desktop';
+@import 'tablet';
+@import 'smartphone';
+
+main {
+    grid-area: contenido;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+@import 'in';
+@import 're';
+@import 'footer';
+@import 'textoanimado';
+@import 'objetoanimado';
